@@ -23,10 +23,6 @@ Screen {
 	property color checkColor : "#99e53935"
 	property color textColor : "#565656"
 
-	onShown: {
-		addCustomTopRightButton("Nieuw spel");
-	}
-
 		// board square (0 = a1) shown in the i-th cell of the grid, counted from the top left
 	function squareAt(i) {
 		var row = Math.floor(i / 8);
