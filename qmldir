@@ -1,0 +1,3 @@
+module apps.schaak
+SchaakApp 1.0 SchaakApp.qml
+SchaakScreen 1.0 SchaakScreen.qml

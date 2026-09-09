@@ -1,0 +1,9 @@
+1.0.0
+- initial release
+- schaken tegen Toon, drie niveaus (makkelijk / normaal / moeilijk)
+- de computer denkt in een aparte thread (WorkerScript) met een harde tijdslimiet, zodat het scherm niet bevriest;
+  valt automatisch terug op zoeken in de interface-thread als de worker niet werkt
+- keuze met welke kleur je speelt, zet terugnemen, score en het lopende spel worden bewaard in
+  /mnt/data/tsc/schaak.userSettings.json (een spel loopt door na een herstart van de Toon)
+- een pion die de overkant bereikt wordt altijd een dame
+- tile toont het bord en de score
